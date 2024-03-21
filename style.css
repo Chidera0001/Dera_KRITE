@@ -393,8 +393,9 @@ tr:hover {
 
 /* Description column styles */
 .table-Desc {
-    width: 25%; /* Adjust width */
-    font-weight: 500;
+    width: 10%; /* Adjust width */
+    text-align: center;
+    font-weight: bold;
 }
 
 /* Member column styles */
@@ -471,6 +472,7 @@ tr:hover {
 
 .brand-Name {
     width: calc(100% - 50px);
+    font-weight: bold;
 }
 
 .chat-img {
