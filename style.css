@@ -411,6 +411,7 @@ tr:hover {
     margin-left: 1px;
     margin-top: -15px;
   }
+  
   .user1 {
     left: 0px;
     z-index: 10;
@@ -440,7 +441,14 @@ tr:hover {
     left: -75px;
     z-index: 15;
   }
-  
+  .user7 {
+    left: -90px;
+    z-index: 15;
+  }
+  .user8 {
+    left: -105px;
+    z-index: 15;
+  }
   .main-container tbody img {
     width: 25px;
     height: 25px;
