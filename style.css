@@ -375,6 +375,7 @@ td {
     text-overflow: ellipsis;
 }
 
+
 tr:hover {
     background-color: #f8f8f8;
     border-radius: 10px;
@@ -490,6 +491,56 @@ tr:hover {
     text-overflow: ellipsis;
     color: #9280b3;
 }
+#Automation{
+    color: rgb(69, 24, 216);
+    background-color: rgb(219, 219, 237);
+    font-weight: bold;
+}
+#E-commerse{
+    color: rgb(98, 9, 9);
+    background-color: rgb(243, 226, 226);
+    font-weight: bold;
+}
+#b2b{
+    color: rgb(0, 0, 0);
+    background-color: rgb(246, 225, 105);
+    font-weight: bold;
+}
+#saas{
+    color:rgb(7, 37, 7);
+    background-color: rgb(138, 233, 138);
+    font-weight: bold;
+}
+#b2c{
+    color: rgb(5, 55, 3);
+    background-color: rgb(213, 238, 179);
+    font-weight: bold;
+}
+#tech{
+    color: rgb(0, 0, 255);
+    background-color: rgb(221, 221, 237);
+    font-weight: bold;
+}
+#Publishing{
+    color: purple;
+    background-color: rgb(234, 203, 234);
+    font-weight: bold; 
+}
+#web{
+    color: rgb(4, 44, 60);
+    background-color: skyblue;
+    font-weight: bold;
+}
+#no-con{
+    color: rgb(69, 7, 7);
+    background-color: rgb(240, 202, 202);
+    font-weight: bold;
+}
+#next{
+    color: black;
+    background-color: #f0f0f0;
+    font-weight: bold;
+}
 
 /* Category column styles */
 
@@ -503,6 +554,8 @@ tr:hover {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+    margin-left: 10px;
+    border-left: solid 1px rgb(229, 224, 224);
 }
 
 /* Tag column styles */
