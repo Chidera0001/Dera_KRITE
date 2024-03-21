@@ -67,8 +67,9 @@ body {
 }
 
 .sidebar-top .user-logo {
-    border-radius: 10px;
+    border-radius: 50%;
     width: 35px;
+    height: 40px;
 }
 
 .sidebar-teams-section {
