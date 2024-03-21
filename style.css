@@ -365,11 +365,11 @@ th {
 
 /* Table data cell styles */
 td {
-    padding: 8px; /* Adjust padding */
+    padding: 4px; /* Adjust padding */
     border-bottom: 1px solid #eeeff1;
     border-right: 1px solid #eeeff1;
     text-align: left;
-    height: 40px; /* Adjust height */
+    height: 30px; /* Adjust height */
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
@@ -543,6 +543,7 @@ tr:hover {
     bottom: 0;
     display: flex;
     justify-content: center;
+    margin-top: 160px;
 }
 
 .botoom-btn button {
