@@ -361,9 +361,8 @@ th {
 }
 
 .plus {
-    width: 10px;
+    width: 30px;
 }
-
 /* Table data cell styles */
 td {
     padding: 4px; /* Adjust padding */
@@ -606,6 +605,74 @@ tr:hover {
 
 
 /* Media query for small screens */
+@media (max-width: 575px) {
+    .category-Item {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    th {
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .user-Img-Container {
+        max-width: 100%;
+        width: auto;
+        height: auto;
+      }
+      .main-container .userImg {
+        width: 19px;
+        height: 20px;
+        top: 10px;
+        margin-left: 0;
+        margin-top: -5px;
+      }
+}
+/* @media (min-width: 768px) and (max-width:992px) {
+        html,
+        body {
+          height: 100%;
+          margin: 0;
+        }
+      
+        body {
+          width: 100%;
+          display: flex;
+          flex-wrap: nowrap;
+          justify-content: left;
+          height: 100%;
+          align-content: center;
+        }
+      
+        .userImg {
+          width: calc(33.333% - 10px);
+          height: calc(33.333% - 10px);
+          margin: 10px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+      
+        .userImg img {
+          height: 100%;
+          width: auto;
+        }
+      
+        .userImg:last-child {
+          margin-right: 10px;
+        }
+      
+        body {
+          height: 100%;
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+        }
+} */
+@media (min-width: 992px) {}
 @media (max-width: 1200px) {
 
     .left-section {
@@ -627,15 +694,3 @@ tr:hover {
 
 }
 
-@media (max-width: 550px) {
-    .category-Item {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 10px;
-    }
-
-    th {
-        overflow: hidden;
-        text-overflow: ellipsis;
-}
-}
