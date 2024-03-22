@@ -188,15 +188,18 @@ body {
     border: 1px solid #eeeff1;
     background-color: #f4f5f6;
     padding: 5px;
-    border-radius: 10px;
+    border-radius: 10px; 
 }
-
+.team-name{
+    font-weight: bold;
+}
 .team-logo {
     margin-right: 10px;
 }
 
 .folder-name {
     margin-right: 10px;
+    font-weight: bold;
 }
 
 .arrow {
@@ -329,12 +332,18 @@ body {
     padding: 5px 10px;
     box-shadow: 0 0.5px 0px rgba(0, 0, 0, 0.1);
   }
-  
+
   .fa-staylinked,
   .fa-arrow-down-wide-short,
   .fa-filter,
   .fa-headse,
   .fa-cloud-arrow-up {
+    margin-right: 4px;
+  }
+  .fa-headset{
+    margin-right: 4px;
+  }
+  .fa-table-cells-large{
     margin-right: 4px;
   }
   
